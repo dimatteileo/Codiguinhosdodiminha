@@ -1,0 +1,27 @@
+print("Bem vindos a lista de 3 coisas aleatorias")
+print("Digite sua adicão")
+adicao = input("")
+
+if adicao:
+    print("1-", adicao)
+    
+print("Segunda adicão")
+adicao2 = input("")
+
+if adicao2:
+    print("1-", adicao)
+    print("2-", adicao2)
+    
+print("Terceira adicão")
+adicao3 = input("")
+
+if adicao3:
+    print("1-", adicao)
+    print("2-", adicao2)
+    print("3-", adicao3)
+    
+input("enter para finalizar: ")
+print("PRONTOOO")
+print("1-", adicao)
+print("2-", adicao2)
+print("3-", adicao3)
