@@ -1,0 +1,15 @@
+import random
+
+numero = random.randint(1, 5)
+print("Acerte o Número De um a 5")
+adivinha = input("Seu Chute: ")
+
+
+adivinha = int(adivinha)
+print("Número escolhido é", numero)
+if numero == adivinha:
+    print("Acertou!!!!!")
+else:
+    print("Errou")
+
+   
